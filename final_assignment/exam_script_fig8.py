@@ -9,6 +9,9 @@ for different mesh sizes in krill for trawl nets. It processes excel data files 
 the altair visualization library. The generated plots include catch share points, modeled rates, and 
 size selection curves with confidence bands.
 
+For paths and other documents please visit:
+    https://github.com/eniskostak/enk/tree/5430375cd7d59082ef7955eb9ce14132a9334312/final_assignment
+
 """
  
 import pandas as pd   # pandas imported for data manipulation
@@ -229,7 +232,8 @@ def generate_combined_chart(catch_share_paths, sel_cur_paths):
     return combined_chart  # return final combined chart
 
 # file paths - all functions are calling the file paths here ands runs each file in order
-
+# for file paths please go:
+    # https://github.com/eniskostak/enk/tree/5430375cd7d59082ef7955eb9ce14132a9334312/final_assignment
 catch_share_paths = [
     r'C:\Users\eko067\Desktop\My Paper - Presentation etc\Paper\meso_sel_study\DATA\sup files\plot_data\c_share\c_share_krill_MB14_22.xlsx',
     r'C:\Users\eko067\Desktop\My Paper - Presentation etc\Paper\meso_sel_study\DATA\sup files\plot_data\c_share\c_share_krill_MB20_22.xlsx',
